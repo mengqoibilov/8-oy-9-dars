@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 export const apiCall = async (
   method: "GET" | "POST" | "PUT" | "DELETE",
   endpoint: string,
@@ -20,3 +19,5 @@ export const apiCall = async (
     throw error;
   }
 };
+
+
